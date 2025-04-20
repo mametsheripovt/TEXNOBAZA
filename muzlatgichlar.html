@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MUZLATGICH</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand d-flex align-items-center" href="#">
+        <i class="bi bi-buildings me-2"></i> TEXNOBAZA
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link active" href="#">AKSESUARLAR</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">AKSIYA</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">KATALOG</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="telefonlar.html">TELEFON</a></li>
+              <li><a class="dropdown-item" href="telvizorlar.html">TELVIZOR</a></li>
+              <li><a class="dropdown-item" href="noutbuk.html">NOUTBUK</a></li>
+              <li><a class="dropdown-item" href="muzlatgichlar.html">MUZLATGICH</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">AKSESUARLAR</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link disabled">BIZ BILAN ALOQA</a></li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Qidiruv">
+          <button class="btn btn-outline-success" type="submit">Qidirish</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!-- CAROUSEL -->
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/MUZLATGICH UMUMIY 1.webp" class="d-block w-100 carousel-img" alt="dazmol">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>NOUTBUK AKSESUARLAR</h5>
+          <p>HP noutbuklar yangi avlodi eng yaxshilari bizda, bizga aloqaga chiqing.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="images/MUZLATGICH UMUMIY 1.webp" class="d-block w-100 carousel-img" alt="telefon">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>TELEFON AKSESUARLAR</h5>
+          <p>Zamonaviy telefonlar va aksessuarlar to‘plami bizda mavjud.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="images/muzlatgich.avif" class="d-block w-100 carousel-img" alt="televizor">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>TELEVIZOR AKSESUARLAR</h5>
+          <p>Eng yangi televizorlar uchun kerakli aksessuarlarni bizdan toping.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+
+  
+    <!-- MAHSULOTLAR RO‘YXATI -->
+<div class="container my-5">
+  <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+
+    <!-- 1 - Samsung -->
+    <div class="col">
+      <div class="card h-100">
+        <img src="images/MUZLATGICH 1.jpg" class="card-img-top product-img" alt="Samsung Muzlatgich">
+        <div class="card-body text-center">
+          <h5 class="card-title">Samsung Twin Cooling</h5>
+          <p class="card-text">Ikki kamerali, 360L hajm, energiya tejamkor A+ klass. Narx: $750</p>
+          <a href="#" class="btn btn-primary">SAVATGA QO'SHISH</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- 2 - LG -->
+    <div class="col">
+      <div class="card h-100">
+        <img src="images/MUZLATGICH 2.jpg" class="card-img-top product-img" alt="LG No Frost Muzlatgich">
+        <div class="card-body text-center">
+          <h5 class="card-title">LG No Frost</h5>
+          <p class="card-text">No Frost texnologiyasi, 400L hajm, LED yoritish. Narx: $820</p>
+          <a href="#" class="btn btn-primary">SAVATGA QO'SHISH</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- 3 - Artel -->
+    <div class="col">
+      <div class="card h-100">
+        <img src="images/MUZLATGICH 3.webp" class="card-img-top product-img" alt="Artel muzlatgich">
+        <div class="card-body text-center">
+          <h5 class="card-title">Artel HD 400</h5>
+          <p class="card-text">Uzun vertikal, 380L hajm, muzlatish kameralari bilan. Narx: $690</p>
+          <a href="#" class="btn btn-primary">SAVATGA QO'SHISH</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- 4 - Beko -->
+    <div class="col">
+      <div class="card h-100">
+        <img src="images/muzlatgich 4.jpg" class="card-img-top product-img" alt="Beko muzlatgich">
+        <div class="card-body text-center">
+          <h5 class="card-title">Beko SmartCool</h5>
+          <p class="card-text">A++ energiya samaradorligi, 350L hajm, sensorli boshqaruv. Narx: $790</p>
+          <a href="#" class="btn btn-primary">SAVATGA QO'SHISH</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- 5 - Hisense -->
+    <div class="col">
+      <div class="card h-100">
+        <img src="images/MUZLATGICH 5.jpg" class="card-img-top product-img" alt="Hisense muzlatgich">
+        <div class="card-body text-center">
+          <h5 class="card-title">Hisense Side by Side</h5>
+          <p class="card-text">Amerika stili, 510L hajm, sovutgich va muzlatkich birga. Narx: $980</p>
+          <a href="#" class="btn btn-primary">SAVATGA QO'SHISH</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- 6 - Indesit -->
+    <div class="col">
+      <div class="card h-100">
+        <img src="images/MUZLATGICH 6.jpg" class="card-img-top product-img" alt="Indesit muzlatgich">
+        <div class="card-body text-center">
+          <h5 class="card-title">Indesit EcoLine</h5>
+          <p class="card-text">Kichik oila uchun, 280L, kam shovqinli tizim. Narx: $620</p>
+          <a href="#" class="btn btn-primary">SAVATGA QO'SHISH</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- 7 - Bosch -->
+    <div class="col">
+      <div class="card h-100">
+        <img src="images/MUZLATGICH 8.webp" class="card-img-top product-img" alt="Bosch muzlatgich">
+        <div class="card-body text-center">
+          <h5 class="card-title">Bosch VitaFresh</h5>
+          <p class="card-text">Vitaminlarni saqlash texnologiyasi, 430L. Narx: $880</p>
+          <a href="#" class="btn btn-primary">SAVATGA QO'SHISH</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- 8 - Artel Universal -->
+    <div class="col">
+      <div class="card h-100">
+        <img src="images/MUZLATGICH UMUMIY 1.webp" class="card-img-top product-img" alt="Artel umumiy">
+        <div class="card-body text-center">
+          <h5 class="card-title">Artel Universal</h5>
+          <p class="card-text">Yangi dizayn, 400L hajm, zamonaviy sovutish. Narx: $730</p>
+          <a href="#" class="btn btn-primary">SAVATGA QO'SHISH</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+      <!-- Qo‘shimcha mahsulotlar istasang shu yerga yana kartalar qo‘shamiz -->
+
+  <!-- SAHIFA PAGINATION -->
+  <nav aria-label="Page navigation example">
+    <ul class="pagination justify-content-center">
+      <li class="page-item disabled"><a class="page-link" href="#">Oldingi</a></li>
+      <li class="page-item"><a class="page-link" href="telefonlar.html">1</a></li>
+      <li class="page-item "><span class="page-link">2</span></li>
+      <li class="page-item"><a class="page-link" href="kompyuterlar.html">3</a></li>
+      <li class="page-item"><a class="page-link" href="telvizorlar.html">4</a></li>
+      <li class="page-item"><a class="page-link" href="biz bilan aloqa.html">5</a></li>
+      <li class="page-item"><a class="page-link" href="muzlatgichlar.html">Keyingi</a></li>
+    </ul>
+  </nav>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,87 @@
+/* TEXNOBAZA nomini qalin va sariq qilish */
+.navbar-brand {
+    font-weight: bold;
+    font-size: 30px;
+    color: black;
+    position: relative;
+}
+
+.navbar-brand::after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: rgb(243, 182, 14);
+}
+
+/* Menu linklarini qalin qilish */
+.navbar-nav .nav-link {
+    font-weight: bold;
+}
+
+/* Carousel Caption yozuvlari */
+.carousel-caption h5 {
+    font-weight: bold;
+    color: rgb(14, 13, 13) !important;
+}
+
+.carousel-caption p {
+    font-weight: bold;
+    color: white !important;
+}
+
+/* Carousel rasm bir xil o‘lchamda va silliq ko‘rinsin */
+.carousel-item img {
+    height: 400px;
+    object-fit: cover;
+}
+
+/* Card Section */
+.card {
+    height: 100%;
+}
+
+.card-body {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 14px;
+}
+
+/* Mahsulot rasmlari */
+.product-img {
+    height: 250px;
+    object-fit: cover;
+}
+
+/* Kartalar bir tekis chiqishi uchun */
+.row-cols-md-4 > .col {
+    display: flex;
+}
+
+/* Pagination */
+.pagination {
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.page-link {
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
